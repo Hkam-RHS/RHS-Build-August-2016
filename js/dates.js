@@ -15,25 +15,25 @@ function getWeekDayName() {
      var x = new Date();
     var y = x.getDay();
     if (y === 0) {
-        document.getElementById('displayDayName').innerHTML = 'Sunday';
+        document.getElementById('displayDayName').innerHTML = 'SUNDAY';
     }
     else if (y === 1) {
-        document.getElementById('displayDayName').innerHTML = 'Monday';
+        document.getElementById('displayDayName').innerHTML = 'MONDAY';
     }
     else if (y ===2) {
-        document.getElementById('displayDayName').innerHTML = 'Tuesday';
+        document.getElementById('displayDayName').innerHTML = 'TUESDAY';
     }
     else if (y === 3) {
-        document.getElementById('displayDayName').innerHTML = 'Wednsday';
+        document.getElementById('displayDayName').innerHTML = 'WEDNESDAY';
     }
     else if (y === 4) {
-        document.getElementById('displayDayName').innerHTML = 'Thursday';
+        document.getElementById('displayDayName').innerHTML = 'THURSDAY';
     }
     else if (y === 5) {
-        document.getElementById('displayDayName').innerHTML = 'Friday';
+        document.getElementById('displayDayName').innerHTML = 'FRIDAY';
     }
     else {
-        document.getElementById('displayDayName').innerHTML = 'Saturday';
+        document.getElementById('displayDayName').innerHTML = 'SATURDAY';
     }
 
 }
